@@ -39,7 +39,7 @@ public class Application {
 	
 	public Application(String applicationId){
 		this.applicationId = applicationId;
-		 file = new File("D:\\"+applicationId+".xml");		 
+		 file = new File(applicationId+".xml");		 
 	}
 	
 	public static void main(String[] args) {
